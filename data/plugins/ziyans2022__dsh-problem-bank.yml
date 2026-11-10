@@ -29,3 +29,4 @@ description:
   en: Structured math problem bank for DeepSeek Harness — 42 tools for storing problems by knowledge subgraph, problem skeleton and technique library, with technique-driven variation generation, multi-solution support, knowledge-graph v2, six-dimensional difficulty and a variation quality gate that rejects reskins.
   zh: 面向数学出题和组卷的结构化题库插件——42 个工具，按知识点子图、题型骨架和技巧库存题，技巧驱动变式出题，支持一题多解、知识图谱 v2、六维难度与变式质量门，拒绝只换数字的换皮题。
 # tarball: <exact .tgz asset URL from the v0.6 release, if one exists; otherwise omit>
+tarball: https://github.com/ziyans2022/dsh-problem-bank/releases/download/v0.6.2/dsh-problem-bank-0.6.2.tgz
