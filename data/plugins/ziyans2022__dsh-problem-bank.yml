@@ -1,7 +1,31 @@
+# Draft submission file for awesome-dsh-plugin
+# Target path in a fork of awesome-dsh-plugin/awesome-dsh-plugin:
+#   data/plugins/ziyans2022__dsh-problem-bank.yml
+# Then open a PR from a branch cut from latest main (not from fork's main).
+#
+# Verified 2026-11-10 (UTC) against the live repo
+# https://github.com/ziyans2022/dsh-problem-bank :
+# - public, MIT, created 2026-10-29, 2 stars, 5 releases, 5 tags
+# - topics include dsh-plugin; cordis.patch.yml and icon.png at repo root
+# - README: 42 tools, v0.6 multi-solution, knowledge-graph v2,
+#   six-dimensional difficulty, variation quality gate; install via git,
+#   NOT on npm. README "上架官方插件市场" section confirms the listing
+#   rules and that icon.png is the index-entry icon.
+# Submission rule (awesome-dsh-plugin.com + merged PR #8516 + issue #11749):
+# one YAML under data/plugins/, five keys only, READMEs/site regenerate.
+#
+# TO CHECK BEFORE SUBMITTING (contributing.md field table + one example
+# file in data/plugins/): the exact five keys and the category slug list.
+# Category below is provisional: no Education category was seen in the
+# index's category list; a 42-tool plugin fits Tools & Capabilities.
+# Tarball is left commented out: no .tgz release asset was verified.
+# If a v0.6 .tgz asset exists on the Releases page, uncomment and use
+# its exact URL; if none exists, omit the line entirely.
+
 url: https://github.com/ziyans2022/dsh-problem-bank
 name: ziyans2022/dsh-problem-bank
 category: tools
 description:
-  en: Structured math problem bank with multi-solution support, layered knowledge graph and six-dimensional difficulty for DeepSeek Harness.
-  zh: 面向 DeepSeek Harness 的结构化数学题库：多解法、分层知识图谱、六维难度与技巧驱动的变式出题。
-tarball: https://github.com/ziyans2022/dsh-problem-bank/releases/download/v0.6.2/dsh-problem-bank-0.6.2.tgz
+  en: Structured math problem bank for DeepSeek Harness — 42 tools for storing problems by knowledge subgraph, problem skeleton and technique library, with technique-driven variation generation, multi-solution support, knowledge-graph v2, six-dimensional difficulty and a variation quality gate that rejects reskins.
+  zh: 面向数学出题和组卷的结构化题库插件——42 个工具，按知识点子图、题型骨架和技巧库存题，技巧驱动变式出题，支持一题多解、知识图谱 v2、六维难度与变式质量门，拒绝只换数字的换皮题。
+# tarball: <exact .tgz asset URL from the v0.6 release, if one exists; otherwise omit>
